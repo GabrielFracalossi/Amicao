@@ -62,6 +62,8 @@ class WelcomeView: UIView {
     return button
   }()
   
+  var buttonToggle: Bool = false
+  
   init() {
     super.init(frame: .zero)
     
@@ -128,7 +130,14 @@ private extension WelcomeView {
   
   // MARK: - Actions
   @objc func startButtonTapped() {
-    debugPrint("Ir para o login")
+    buttonToggle.toggle()
+    
+    guard buttonToggle else {
+      amicaoLogo.image = UIImage(named: "amicao-logo")
+      return
+    }
+    
+    amicaoLogo.image = UIImage(named: "cat-logo")
   }
 }
 

@@ -16,8 +16,7 @@ class WelcomeViewController: UIViewController {
     
 //    baseView.setup()
     
-    baseView.setup(logo: "cat-logo",
-                   title: "Esse aplicativo é muito legalzinho, você num acha?",
+    baseView.setup(title: "Esse aplicativo é muito legalzinho, você num acha?",
                    subtitle: "Bora testar?",
                    buttonTitle: "Só se for agora")
   }
