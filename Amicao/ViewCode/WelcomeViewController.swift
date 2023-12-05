@@ -14,9 +14,12 @@ class WelcomeViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    baseView.setup()
+//    baseView.setup()
     
-//    baseView.setup(title: "Esse aplicativo é muito legalzinho, você num acha?")
+    baseView.setup(logo: "cat-logo",
+                   title: "Esse aplicativo é muito legalzinho, você num acha?",
+                   subtitle: "Bora testar?",
+                   buttonTitle: "Só se for agora")
   }
   
   override func loadView() {

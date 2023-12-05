@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kJr-c9-jg7">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -13,23 +13,23 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Amicao" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seja bem-vindo ao app do AMICÃO" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctZ-AH-8Zg">
-                                <rect key="frame" x="32" y="119" width="326" height="114.66666666666669"/>
+                                <rect key="frame" x="32" y="92" width="256" height="115"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faça um novo amigo!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7B-fO-wD8">
-                                <rect key="frame" x="64" y="586.66666666666663" width="262" height="25.333333333333371"/>
+                                <rect key="frame" x="64" y="344.5" width="192" height="25.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMM-Fe-yxB">
-                                <rect key="frame" x="72" y="676" width="246" height="50"/>
+                                <rect key="frame" x="72" y="434" width="176" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.66274509803921566" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="7AS-Bc-vgx"/>
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGO AMICÃO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwb-J5-TCA">
-                                <rect key="frame" x="298.66666666666669" y="71" width="59.333333333333314" height="50"/>
+                                <rect key="frame" x="228.5" y="44" width="59.5" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="BuK-n1-bpc"/>
                                 </constraints>
@@ -86,11 +86,11 @@
             <objects>
                 <viewController id="F94-xI-zRl" customClass="LoginViewController" customModule="Amicao" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mvk-3O-C1v">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qm2-Me-QeQ">
-                                <rect key="frame" x="64" y="131" width="262" height="76.666666666666686"/>
+                                <rect key="frame" x="64" y="104" width="192" height="76.5"/>
                                 <string key="text">LOGO
 AMICÃO</string>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
@@ -98,7 +98,7 @@ AMICÃO</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLB-3S-Y4r">
-                                <rect key="frame" x="32" y="255.66666666666663" width="326" height="32"/>
+                                <rect key="frame" x="32" y="228.5" width="256" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="NS3-QU-j5T"/>
                                 </constraints>
@@ -107,7 +107,7 @@ AMICÃO</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="16" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gLI-9c-N1B">
-                                <rect key="frame" x="32" y="307.66666666666669" width="326" height="32"/>
+                                <rect key="frame" x="32" y="280.5" width="256" height="32"/>
                                 <color key="backgroundColor" red="1" green="0.66268873455224897" blue="0.74782533845041488" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Bm4-eZ-UE4"/>
@@ -117,7 +117,7 @@ AMICÃO</string>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" smartInsertDeleteType="no" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="16" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="o14-NJ-yVg">
-                                <rect key="frame" x="32" y="359.66666666666669" width="326" height="32"/>
+                                <rect key="frame" x="32" y="332.5" width="256" height="32"/>
                                 <color key="backgroundColor" red="1" green="0.6626887346" blue="0.74782533849999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Gbw-iP-MLC"/>
@@ -127,7 +127,7 @@ AMICÃO</string>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" smartInsertDeleteType="no" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoJ-vf-IMC">
-                                <rect key="frame" x="32" y="407.66666666666669" width="105" height="32"/>
+                                <rect key="frame" x="32" y="380.5" width="105" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="wy2-EN-t2B"/>
                                 </constraints>
@@ -137,7 +137,7 @@ AMICÃO</string>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je6-tS-hyJ">
-                                <rect key="frame" x="80" y="463.66666666666669" width="230" height="50.000000000000057"/>
+                                <rect key="frame" x="80" y="436.5" width="160" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.6626887346" blue="0.74782533849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="A4c-A3-l8a"/>
@@ -148,7 +148,7 @@ AMICÃO</string>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uo-oP-ozH">
-                                <rect key="frame" x="265" y="407.66666666666669" width="93" height="32"/>
+                                <rect key="frame" x="195" y="380.5" width="93" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Nnf-Yp-m7o"/>
                                 </constraints>
@@ -158,7 +158,7 @@ AMICÃO</string>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhb-Cy-dTU">
-                                <rect key="frame" x="64" y="609.66666666666663" width="262" height="50"/>
+                                <rect key="frame" x="64" y="582.5" width="192" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="hgR-Ql-oOc"/>
                                 </constraints>
@@ -169,7 +169,7 @@ entre com</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BuP-PI-FJJ">
-                                <rect key="frame" x="64" y="679.66666666666663" width="80" height="50"/>
+                                <rect key="frame" x="64" y="652.5" width="80" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="GcW-zZ-qdO"/>
                                     <constraint firstAttribute="width" constant="80" id="Zha-ex-t02"/>
@@ -181,7 +181,7 @@ GOOGLE</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyz-EX-dwd">
-                                <rect key="frame" x="246" y="679.66666666666663" width="80" height="50"/>
+                                <rect key="frame" x="176" y="652.5" width="80" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Myo-iS-6Bk"/>
                                     <constraint firstAttribute="width" constant="80" id="NLb-ls-s76"/>
