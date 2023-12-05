@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		687A72B52B1F3D0C0074848C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A72B42B1F3D0C0074848C /* WelcomeViewController.swift */; };
+		687A72B72B1F3D280074848C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A72B62B1F3D280074848C /* WelcomeView.swift */; };
 		68CE972A2B1E8170008475B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE97292B1E8170008475B7 /* AppDelegate.swift */; };
 		68CE972C2B1E8170008475B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE972B2B1E8170008475B7 /* SceneDelegate.swift */; };
 		68CE972E2B1E8170008475B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE972D2B1E8170008475B7 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		687A72B42B1F3D0C0074848C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		687A72B62B1F3D280074848C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		68CE97262B1E8170008475B7 /* Amicao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amicao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CE97292B1E8170008475B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68CE972B2B1E8170008475B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		687A72B32B1F3CF80074848C /* ViewCode */ = {
+			isa = PBXGroup;
+			children = (
+				687A72B42B1F3D0C0074848C /* WelcomeViewController.swift */,
+				687A72B62B1F3D280074848C /* WelcomeView.swift */,
+			);
+			path = ViewCode;
+			sourceTree = "<group>";
+		};
 		68CE971D2B1E8170008475B7 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +72,7 @@
 		68CE97282B1E8170008475B7 /* Amicao */ = {
 			isa = PBXGroup;
 			children = (
+				687A72B32B1F3CF80074848C /* ViewCode */,
 				68CE97292B1E8170008475B7 /* AppDelegate.swift */,
 				68CE972B2B1E8170008475B7 /* SceneDelegate.swift */,
 				68CE972D2B1E8170008475B7 /* ViewController.swift */,
@@ -142,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CE97402B1E8F6F008475B7 /* LoginViewController.swift in Sources */,
+				687A72B72B1F3D280074848C /* WelcomeView.swift in Sources */,
+				687A72B52B1F3D0C0074848C /* WelcomeViewController.swift in Sources */,
 				68CE972E2B1E8170008475B7 /* ViewController.swift in Sources */,
 				68CE972A2B1E8170008475B7 /* AppDelegate.swift in Sources */,
 				68CE972C2B1E8170008475B7 /* SceneDelegate.swift in Sources */,
