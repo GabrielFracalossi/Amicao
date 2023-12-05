@@ -127,7 +127,7 @@ AMICÃO</string>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" smartInsertDeleteType="no" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoJ-vf-IMC">
-                                <rect key="frame" x="32" y="404.66666666666669" width="150" height="32"/>
+                                <rect key="frame" x="32" y="404.66666666666669" width="105" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="wy2-EN-t2B"/>
                                 </constraints>
@@ -148,7 +148,7 @@ AMICÃO</string>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uo-oP-ozH">
-                                <rect key="frame" x="208" y="404.66666666666669" width="150" height="32"/>
+                                <rect key="frame" x="265" y="404.66666666666669" width="93" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Nnf-Yp-m7o"/>
                                 </constraints>
@@ -223,11 +223,9 @@ FACEBOOK</string>
                             <constraint firstItem="Qm2-Me-QeQ" firstAttribute="leading" secondItem="R6D-kT-HNa" secondAttribute="leading" constant="64" id="oe9-Zb-gbj"/>
                             <constraint firstItem="R6D-kT-HNa" firstAttribute="trailing" secondItem="8uo-oP-ozH" secondAttribute="trailing" constant="32" id="ohn-SW-3WP"/>
                             <constraint firstItem="o14-NJ-yVg" firstAttribute="top" secondItem="gLI-9c-N1B" secondAttribute="bottom" constant="20" id="pOU-Bf-grB"/>
-                            <constraint firstItem="R6D-kT-HNa" firstAttribute="trailing" secondItem="QoJ-vf-IMC" secondAttribute="trailing" constant="208" id="rKG-3m-WOS"/>
                             <constraint firstItem="bhb-Cy-dTU" firstAttribute="centerX" secondItem="Mvk-3O-C1v" secondAttribute="centerX" id="sVt-ga-W9X"/>
                             <constraint firstItem="8uo-oP-ozH" firstAttribute="top" secondItem="o14-NJ-yVg" secondAttribute="bottom" constant="16" id="tEl-fu-rWl"/>
                             <constraint firstItem="wLB-3S-Y4r" firstAttribute="top" secondItem="Qm2-Me-QeQ" secondAttribute="bottom" constant="48" id="w4o-xP-Ztt"/>
-                            <constraint firstItem="8uo-oP-ozH" firstAttribute="leading" secondItem="R6D-kT-HNa" secondAttribute="leading" constant="208" id="ye5-pV-UWK"/>
                             <constraint firstItem="R6D-kT-HNa" firstAttribute="trailing" secondItem="o14-NJ-yVg" secondAttribute="trailing" constant="32" id="zVt-Ka-EBq"/>
                         </constraints>
                     </view>
